@@ -1,11 +1,11 @@
-Algoritmo "semnome"
+Algoritmo "distancia"
 
 Var
 
 distancia: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+
 escreval ("Distancia percorrida")
 leia (distancia)
 

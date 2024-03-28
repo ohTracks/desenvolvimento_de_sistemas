@@ -1,14 +1,14 @@
 Algoritmo "semnome"
 
 Var
-// Seção de Declarações das variáveis 
+
 resultado: real
 numero: real
 operador: caractere
 continuar: caractere
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+ 
 escreva ("----Calculadora----")
 escreva (" ")
 
@@ -43,7 +43,7 @@ fimescolha
 
 escreva (" ")
 
-escreval ("Seu resultado é: ")
+escreval ("Seu resultado ï¿½: ")
 escreval (resultado)
 
 escreva ("DESEJA CONTINUAR? S/N")

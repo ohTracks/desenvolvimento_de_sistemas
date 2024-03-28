@@ -1,15 +1,15 @@
 Algoritmo "preco unitario"
 
 Var
-// Seção de Declarações das variáveis 
+
 quantidade: inteiro
 valor: real
 total: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+ 
 escreval ("Venda de livros")
-escreval ("Promoção: levando 10 livros paga 8 reais")
+escreval ("Promocao: levando 10 livros paga 8 reais")
 
 escreval("Quantidade de livros:")
 leia (quantidade)
