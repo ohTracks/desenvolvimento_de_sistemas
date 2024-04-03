@@ -1,0 +1,49 @@
+Algoritmo "restaurante"
+
+Var
+
+codigo: inteiro
+quantidade: inteiro
+Inicio
+
+escreva("Código do pedido? ")
+leia(codigo)
+se ((codigo < 101) ou (codigo > 106)) entao
+escreva("Não temos esse produto!")
+
+senão
+
+escreva("Quantos produtos? ")
+
+leia(quantidade)
+
+escolha codigo
+caso 101
+
+escreva("O preço é de:", quantidade*12.20)
+
+caso 102
+
+escreva("O preço é de:", quantidade*5.30)
+
+caso 103
+
+escreva("O preço é de:", quantidade*6.50)
+
+caso 104
+
+escreva("O preço é de:", quantidade*10.20)
+
+caso 105
+
+escreva("O preço é de:", quantidade*12.30)
+
+caso 106
+
+escreva("O preço é de:", quantidade*6)
+
+fimse
+
+fimescolha
+
+Fimalgoritmo
