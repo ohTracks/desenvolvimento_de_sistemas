@@ -1,0 +1,68 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMvDerYNEwgZ0xFDxDFAdmq",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ohTracks/desenvolvimento_de_sistemas/blob/main/Python%20no%20google\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Kt2vnN5Edech",
+        "outputId": "623b85d2-28e5-4f47-d228-577cc89d3363"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Olá Mundo\n",
+            "Digite seu nome: neymar\n",
+            "Seja bem-vindo neymar\n",
+            "Digite sua idade: 32\n",
+            "Seu nome é neymar e tem 32 anos\n"
+          ]
+        }
+      ],
+      "source": [
+        "#comentario como faz isso?\n",
+        "\n",
+        "print(\"Olá Mundo\")\n",
+        "\n",
+        "nome = input(\"Digite seu nome: \")\n",
+        "\n",
+        "print(f\"Seja bem-vindo {nome}\")\n",
+        "\n",
+        "idade = input(\"Digite sua idade: \")\n",
+        "\n",
+        "print(f\"Seu nome é {nome} e tem {idade} anos\")\n",
+        "\n"
+      ]
+    }
+  ]
+}
